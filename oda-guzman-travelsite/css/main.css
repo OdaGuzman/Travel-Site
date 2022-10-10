@@ -1,0 +1,82 @@
+.recommendations-section {
+  padding: 0 5rem 4rem 5rem;
+}
+
+.recommendations-section__title {
+  color: #335576;
+  margin: 3rem 0 1rem 0;
+}
+
+.recommendations-section__cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem 0 4rem;
+}
+
+.recommendations-section__item {
+  padding: 0.625rem;
+  position: relative;
+  max-width: 300px;
+}
+
+.card__image {
+  max-width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.recommendations-cards__subtitle {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.hero-banner {
+  display: flex;
+  width: 88%;
+  padding: 0 5rem 0 5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefaf5;
+  height: 59vh;
+}
+
+.hero-banner__image {
+  width: 40%;
+}
+
+.hero-banner__title {
+  background-color: #fefaf5;
+  max-width: 57%;
+  text-align: left;
+  color: #335576;
+}
+
+.hero-banner__title h2 {
+  font-size: 2.4rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.hero-banner__title h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0 0 1.5rem 0;
+}
+
+.hero-banner__button {
+  background-color: #db7a4e;
+  margin: 2px 0px;
+  border: none;
+  color: white;
+  padding: 9px 33px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
+}

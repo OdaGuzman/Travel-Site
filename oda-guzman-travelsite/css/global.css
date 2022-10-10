@@ -1,0 +1,142 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  height: 3.4rem;
+}
+
+.header-name {
+  text-decoration: none;
+  color: #335576;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 5rem;
+}
+
+.navbar__title {
+  text-decoration: none;
+  color: #335576;
+  font-weight: bold;
+}
+.navbar__title--destination {
+  text-decoration: none;
+  color: #335576;
+  font-weight: 600;
+  padding-left: 3rem;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 1px;
+  padding: 1px;
+  display: inline-flex;
+}
+
+.nav__link,
+.nav__link:visited,
+.nav__link:hover,
+.nav__link:active,
+.nav__link--active {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 0 10px 4px;
+  margin: 0 5px 0 4px;
+}
+
+.nav__link,
+.nav__link:visited {
+  display: inline-block;
+}
+
+.nav__link:hover,
+.nav__link:active,
+.nav__link--active {
+  border-bottom: 2px solid rgba(255, 149, 0, 0.887);
+  display: inline-flex;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #fefaf5;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.footer__contact {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__contact__title,
+.footer__hours__title,
+.footer__social__title {
+  font-size: 20px;
+  color: #335576;
+}
+
+.footer__contact__subtitle,
+.footer__hours__text {
+  font-size: 13px;
+  color: #db7a4e;
+  margin: 0;
+  font-weight: lighter;
+  font-variant-caps: all-small-caps;
+  display: inline-flex;
+}
+
+.footer__hours__item,
+.footer__contact__email {
+  margin: 10px 0 10px 0;
+  color: #335576;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer__hours__subtitle {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.footer__hours__details {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+.footer__social {
+  min-width: 110px;
+}
+
+.footer__social__subtitle--blank {
+  color: transparent;
+}
+
+.footer__social__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social__item img {
+  height: 20px;
+}
